@@ -1,0 +1,78 @@
+body {
+    background-image: url(https://i.gifer.com/XzZg.gif);
+}
+
+#all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 220px;
+}
+#all div {
+    margin: 10px;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 30vh;
+    border: 1px ridge #ffffff;
+    border-radius: 3px;
+    background-color: #ffffff36;
+    color: #ffffff;
+}
+
+#tab-selection {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#tab-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#tab-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+label {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#answer.hidden {
+    display: none;
+}
+
+#answer {
+    display: flex;
+}
+
+#element, #distribution, #other {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30vw;
+    min-height: 30vh;
+    border: 1px ridge #ffffff;
+    border-radius: 3px;
+    background-color: #ffffff36;
+    color: #ffffff;
+}
+
+#element div, #distribution div, #other div {
+    display: flex;
+    flex-direction: column;
+}
